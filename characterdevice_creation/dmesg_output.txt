@@ -1,0 +1,30 @@
+                exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[   41.579802] audit: type=1107 audit(1739424690.169:71): pid=922 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.4" pid=2190 label="snap.snap-store.ubuntu-software" peer_pid=948 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[   41.590805] audit: type=1107 audit(1739424690.180:72): pid=922 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.4" pid=2190 label="snap.snap-store.ubuntu-software" peer_pid=948 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[   41.591370] audit: type=1107 audit(1739424690.180:73): pid=922 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.4" pid=2190 label="snap.snap-store.ubuntu-software" peer_pid=948 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[   41.981315] audit: type=1400 audit(1739424690.569:74): apparmor="DENIED" operation="open" class="file" profile="snap.snap-store.ubuntu-software" name="/etc/appstream.conf" pid=2190 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[   62.645869] audit: type=1326 audit(1739424710.648:75): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2190 comm="pool-org.gnome." exe="/snap/snap-store/1216/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x727f7fe74a9b code=0x50000
+[  942.558141] hrtimer: interrupt took 4020595 ns
+[ 2456.860256] device: loading out-of-tree module taints kernel.
+[ 2456.860265] device: module verification failed: signature and/or required key missing - tainting kernel
+[ 2456.862970] Major = 240 Minor = 0 
+[ 2456.863803] Kernel Module Inserted Successfully...
+[ 2540.833923] Driver Open Function Called...!!!
+[ 2540.833959] Driver Write Function Called...!!!
+[ 2540.834061] Driver Release Function Called...!!!
+[ 2578.500638] Driver Open Function Called...!!!
+[ 2578.500663] Driver Read Function Called...!!!
+[ 2578.500685] Driver Release Function Called...!!!
+[ 2602.881277] Kernel Module Removed Successfully...
+[ 2777.712773] workqueue: blk_mq_run_work_fn hogged CPU for >10000us 8 times, consider switching to WQ_UNBOUND
+[ 2840.838484] Major = 240 Minor = 0 
+[ 2840.838712] Kernel Module Inserted Successfully...
+[ 3024.182682] Driver Open Function Called...!!!
+[ 3024.182714] Driver Write Function Called...!!!
+[ 3024.182753] Driver Release Function Called...!!!
+[ 3040.027909] Driver Open Function Called...!!!
+[ 3040.027939] Driver Read Function Called...!!!
+[ 3040.027964] Driver Release Function Called...!!!
